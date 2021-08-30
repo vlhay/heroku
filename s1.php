@@ -188,13 +188,35 @@ function outFunc() {
 
 
 
-    <input id="txtUrl" value="[img]'.$thumb.'[/img][p] Có '.$lay.' Pic[/p]';
+    <input id="myInputx" value="[img]'.$thumb.'[/img][p] Có '.$lay.' Pic[/p]';
 
     for ($i= 1; $i <= $lay ; $i++){ echo '[img]'.$ua.$i.'.jpg[/img]'; }
 
       echo '" type="text" />
 
+<div class="tooltip">
+<button onclick="myFunction()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltipx">Copy to clipboard</span>
+  Copy text
+  </button>
+</div>
 
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInputx");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  
+  var tooltipx = document.getElementById("myTooltipx");
+  tooltipx.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltipx = document.getElementById("myTooltipx");
+  tooltipx.innerHTML = "Copy to clipboard";
+}
+</script>
 
   <div class="js-previewContainer"></div>
 
