@@ -110,8 +110,19 @@ echo '
 
       </div>
 
-    <input type="text" name="title" data-xf-init="" class="input js-titleInput  input--title" value="Truyện Hentai '.$title.'" autocomplete="off" placeholder="Tiêu đề bài viết" autofocus="autofocus" maxlength="150" id="_xfUid-2-1630335443">
-  
+    <input type="text" id="txtUrl2" value="Truyện Hentai '.$title.'" ">
+  <button onclick="geturl()">Copy</button>
+<script>
+function geturl(){
+  var copyText = document.getElementById("txtUrl2");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copy thành công.");
+  return false;
+}
+</script>
+
     </div>
 
   </div>
@@ -127,13 +138,22 @@ echo '
 
 
 
-    <textarea name="message" class="input" aria-label="Khung soạn thảo trù phú">[img]'.$thumb.'[/img][p] Có '.$lay.' Pic[/p]';
+    <input id="txtUrl" value="[img]'.$thumb.'[/img][p] Có '.$lay.' Pic[/p]';
 
     for ($i= 1; $i <= $lay ; $i++){ echo '[img]'.$ua.$i.'.jpg[/img]'; }
 
-      echo '</textarea>
-
-
+      echo '" type="text" />
+<button onclick="geturl()">Copy</button>
+<script>
+function geturl(){
+  var copyText = document.getElementById("txtUrl");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copy thành công.");
+  return false;
+}
+</script>
 
 
   <div class="js-previewContainer"></div>
