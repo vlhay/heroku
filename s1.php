@@ -117,7 +117,9 @@ echo '
 
         <textarea class="input" style="min-height: 251px; max-height: 486px; padding: 10px; overflow: hidden; overflow-wrap: break-word; resize: none; height: 251px;" aria-label="Khung soạn thảo trù phú" name="message">[img]'.$thumb.'[/img][p] Có '.$lay.' Pic[/p]';
 
-    for ($i= 1; $i <= $lay ; $i++){ echo '[img]'.$ua.$i.'.jpg[/img]'; }</textarea>
+    for ($i= 1; $i <= $lay ; $i++){ echo '[img]'.$ua.$i.'.jpg[/img]'; }
+
+      echo '</textarea>
 
         <button type="submit" class="button--primary button button--icon button--icon--write"><span class="button-text">Đăng chủ đề mới</span></button></form></form>
 
