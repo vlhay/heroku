@@ -143,7 +143,7 @@ echo '
 
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <br> lêch xlecx.org<br>
-<form method="get">Url: <input name="url" type="text" value="https://9hentai.to/g/'.$tiep.'"><input type="submit" value="Leech" ></form>
+<form method="get">Url: <input name="url" type="text" value="https://9hentai.to/g/'.$tiep.'/"><input type="submit" value="Leech" ></form>
 
 
 <script language="javascript"> 
