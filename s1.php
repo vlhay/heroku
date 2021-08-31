@@ -195,14 +195,14 @@ function outFunc() {
       echo '" type="text" />
 
 <div class="tooltip">
-<button onclick="myFunction()" onmouseout="outFunc()">
+<button onclick="myFunctionx()" onmouseout="outFuncx()">
   <span class="tooltiptext" id="myTooltipx">Copy to clipboard</span>
   Copy text
   </button>
 </div>
 
 <script>
-function myFunction() {
+function myFunctionx() {
   var copyText = document.getElementById("myInputx");
   copyText.select();
   copyText.setSelectionRange(0, 99999);
@@ -212,7 +212,7 @@ function myFunction() {
   tooltipx.innerHTML = "Copied: " + copyText.value;
 }
 
-function outFunc() {
+function outFuncx() {
   var tooltipx = document.getElementById("myTooltipx");
   tooltipx.innerHTML = "Copy to clipboard";
 }
