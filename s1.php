@@ -115,6 +115,9 @@ echo '
   visibility: visible;
   opacity: 1;
 }
+
+button, input {    font: inherit;padding: 8px;
+    display: block;}
 </style>
 <dd>
 
