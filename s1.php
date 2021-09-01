@@ -125,12 +125,12 @@ button, input {    font: inherit;padding: 8px;
 
 
     <input type="text" id="myInput" value="Truyện Hentai '.$title.'" ">
-<div class="tooltip">
-<button onclick="myFunction()" onmouseout="outFunc()">
+
+<button class="tooltip" onclick="myFunction()" onmouseout="outFunc()">
   <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
   Copy text
   </button>
-</div>
+
 
 <script>
 function myFunction() {
@@ -149,17 +149,8 @@ function outFunc() {
 }
 </script>
 
-    </div>
 
-  </div>
-   </dd>
 
-       <dl class="formRow formRow--input formRow--fullWidth formRow--noLabel formRow--mergePrev">
-        <dt>
-          <div class="formRow-labelWrapper">
-          <label class="formRow-label" for="_xfUid-3-1630365031">Nội dung</label></div>
-        </dt>
-        <dd>
           
 
 <p>    Có '.$lay.' Pic</p>
@@ -172,12 +163,11 @@ function outFunc() {
 
       echo '" type="text" />
 
-<div class="tooltip">
-<button onclick="myFunctionx()" onmouseout="outFuncx()">
+<button  class="tooltip"onclick="myFunctionx()" onmouseout="outFuncx()">
   <span class="tooltiptext" id="myTooltipx">Copy to clipboard</span>
   Copy text
   </button>
-</div>
+
 
 <script>
 function myFunctionx() {
@@ -196,10 +186,6 @@ function outFuncx() {
 }
 </script>
 
-  <div class="js-previewContainer"></div>
-
-        </dd>
-      </dl>
 
  
 
