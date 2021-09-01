@@ -119,37 +119,10 @@ echo '
 button, input {    font: inherit;padding: 8px;
     display: block;}
 </style>
-<dd>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<br> lêch xlecx.org<br>
+<form method="get">Url: <input name="url" type="text" value="https://9hentai.to/g/'.$tiep.'/"><input type="submit" value="Leech" ></form>
 
-  <div class="js-prefixContainer">
-    <div class="inputGroup inputGroup--joined u-jsOnly">
-      <div class="inputGroup-text">
-        <div class="" data-xf-init="prefix-menu">
-          <a class="menuTrigger menuTrigger--prefix" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">
-            <span class="js-activePrefix">(Không tiền tố)</span>
-          </a>
-          <div class="menu" data-menu="menu" aria-hidden="true">
-            <div class="menu-content">
-              <div class="menu-scroller js-prefixMenuContent" role="listbox">
-        <div class="menu-row">
-          <a class="menuPrefix label label--primary" data-prefix-id="1" data-prefix-class="label label--primary" role="option">Manhwa</a>
-        </div>
-      <hr class="menu-separator">
-    <div class="menu-row">
-      <a class="menuPrefix menuPrefix--none" data-prefix-id="0" data-prefix-class="" role="option">(Không tiền tố)</a>
-    </div>
-  </div>
-            </div>
-          </div>
-        </div>
-
-      <select name="prefix_id" class="js-prefixSelect u-noJsOnly input" title="Tiền tố">
-        <option value="0" selected="selected">(Không tiền tố)</option>
-<option value="1" data-prefix-class="label label--primary">Manhwa</option>
-
-      </select>
-
-      </div>
 
     <input type="text" id="myInput" value="Truyện Hentai '.$title.'" ">
 <div class="tooltip">
@@ -228,10 +201,7 @@ function outFuncx() {
         </dd>
       </dl>
 
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<br> lêch xlecx.org<br>
-<form method="get">Url: <input name="url" type="text" value="https://9hentai.to/g/'.$tiep.'/"><input type="submit" value="Leech" ></form>
-
+ 
 
 <script language="javascript"> 
 document.getElementById("okbaby").click(); 
