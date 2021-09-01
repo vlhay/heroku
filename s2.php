@@ -77,7 +77,7 @@ curl_close($curl);
 
 
 echo '
-<form action="http://sacmau.xyz/forums/truyen-hentai.9/post-thread">
+<form action="http://sacmau.xyz/forums/truyen-hentai.9/post-thread" method="post">
 
 
 
