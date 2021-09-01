@@ -66,7 +66,7 @@ $trangdau = curl_exec($curl);
 $trangdau = explode('<div class="ndtruyen">',$trangdau);
 $trangdau = explode('<center><div class="phantrang">',$trangdau[1]);
 
-$trangdau = strip_tags($trangdau[0],'<p>');
+$trangdau = strip_tags($trangdau[0],'<p>,<b>,<center>');
 
 $trangdau = preg_replace('/TruyenTv.net|truyentv.net/i', 'TruyenHentai.Viwap.Com', $trangdau);
 $trangdau = str_replace('</p>','[/p]',$trangdau);
