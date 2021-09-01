@@ -264,6 +264,7 @@ function myFunction'.$i.'() {
   var copyText = document.getElementById("myInput'.$i.'");
   copyText.select();
   copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
   
   var tooltip'.$i.' = document.getElementById("myTooltip'.$i.'");
   tooltip'.$i.'.innerHTML = "Copied: " + copyText.value;
