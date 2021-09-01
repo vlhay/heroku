@@ -260,7 +260,7 @@ echo '
 
 
 <script>
-function myFunctionx() {
+function myFunction'.$i.'() {
   var copyText = document.getElementById("myInput'.$i.'");
   copyText.select();
   copyText.setSelectionRange(0, 99999);
@@ -270,7 +270,7 @@ function myFunctionx() {
   tooltip'.$i.'.innerHTML = "Copied: " + copyText.value;
 }
 
-function outFuncx() {
+function outFunc'.$i.'() {
   var tooltip'.$i.' = document.getElementById("myTooltip'.$i.'");
   tooltipx.innerHTML = "Copy to clipboard";
 }
