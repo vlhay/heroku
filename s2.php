@@ -165,7 +165,7 @@ button, input {    font: inherit;padding: 8px;
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <br> lêch xlecx.org<br>
-<form method="get">Url: <input name="url" type="text" value="https://9hentai.to/g/'.$tiep.'/"><input type="submit" value="Leech" ></form>
+<form method="get">Url: <input name="url" type="text" value=""><input type="submit" value="Leech" ></form>
 
 
     <input type="text" id="myInput" value="Truyện sex '.$title.' " ">
@@ -251,7 +251,7 @@ $bai = str_replace('<center>','[center]',$bai);
 echo '
 
 
-  Phần '.$i.'  <input id="myInput'.$i.'" value="'.$trangdau.'" type="text" />
+  <br>Phần '.$i.'  <input id="myInput'.$i.'" value="'.$trangdau.'" type="text" />
 
 <button  class="tooltip" onclick="myFunction'.$i.'()" onmouseout="outFunc'.$i.'()">
   <span class="tooltiptext" id="myTooltip'.$i.'">Copy to clipboard</span>
