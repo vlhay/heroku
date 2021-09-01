@@ -251,7 +251,7 @@ $bai = str_replace('<center>','[center]',$bai);
 echo '
 
 
-  <br>Phần '.$i.'  <input id="myInput'.$i.'" value="'.$trangdau.'" type="text" />
+  <br>Phần '.$i.'  <input id="myInput'.$i.'" value="'.$bai.'" type="text" />
 
 <button  class="tooltip" onclick="myFunction'.$i.'()" onmouseout="outFunc'.$i.'()">
   <span class="tooltiptext" id="myTooltip'.$i.'">Copy to clipboard</span>
