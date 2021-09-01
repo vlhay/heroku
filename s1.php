@@ -191,11 +191,11 @@ function outFunc() {
 
 <p>    Có '.$lay.' Pic</p>
 
-    <input id="myInputx" value="[img]'.$thumb.'[/img]
-     Có '.$lay.' Pic
+    <input id="myInputx" value="[center][img]'.$thumb.'[/img][/center]
+    [p] Có '.$lay.' Pic[/p]
     ';
 
-    for ($i= 1; $i <= $lay ; $i++){ echo '[img]'.$ua.$i.'.jpg[/img]'; }
+    for ($i= 1; $i <= $lay ; $i++){ echo '[center][img]'.$ua.$i.'.jpg[/img][/center]'; }
 
       echo '" type="text" />
 
