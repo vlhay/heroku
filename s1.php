@@ -1,20 +1,6 @@
-<?php
-/*
- Template Name: Đăng bài
- */
-?>
-<?php if(is_user_logged_in()) {
-$user_id = get_current_user_id();
-$current_user = wp_get_current_user();
-$vnkings =  $current_user->user_level;
-if($vnkings <= 2) { $vnstatus = "pending"; } else { $vnstatus = "publish"; }
-?>
- 
+
 
  <?php
-
- if (!isset($_POST['post_content'])) 
- {
 
 
 if (!isset($_GET['url']))
@@ -75,7 +61,7 @@ curl_close($curl);
 
 
 echo '
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <div id="vnkings_postBox">
     <form id="new_post" action="http://sacmau.xyz/dang-bai-3/" method="post" action="" enctype="multipart/form-data">
         <div class="form-group vnking_pd col-sm-12 col-md-6">
