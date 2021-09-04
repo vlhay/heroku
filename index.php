@@ -24,7 +24,7 @@
 </head><body>
 <div id="wrap"><div class="box"><div class="menu" id="posts">THÔNG BÁO</div>
 
-<div class="list"><a href="/s1">leech truyen xxx</a></div>
+<div class="list"><a href="/s1.php">leech truyen xxx</a></div>
 <div class="list"><a href="/s1">leech truyen xxx</a></div>
 <div class="list"><a href="/s1">leech truyen xxx</a></div>
 <div class="list"><a href="/s1">leech truyen xxx</a></div>
@@ -36,4 +36,5 @@
 
 
 
-</div></body></html>
+</div></body></html>';
+
